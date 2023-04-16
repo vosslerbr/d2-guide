@@ -22,3 +22,12 @@ footer {
 a {
   text-decoration: none;
 }
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.chips > * {
+  margin-right: 0.5rem;
+}

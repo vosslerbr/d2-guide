@@ -1,9 +1,6 @@
-const linkTree: {
-  title: string;
-  linksTo: string;
-  description: string;
-  imageUrl: string;
-}[] = [
+import { LinkTree } from "./types";
+
+const linkTree: LinkTree[] = [
   {
     title: "Brand New? Start Here",
     linksTo: "/newlight",

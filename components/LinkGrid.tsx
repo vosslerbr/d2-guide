@@ -1,13 +1,9 @@
 import Link from "next/link";
 import { Card } from "primereact/card";
+import { LinkTree } from "@/utils/linkTrees/types";
 
 interface Props {
-  linkTree: {
-    title: string;
-    description: string;
-    linksTo: string;
-    imageUrl: string;
-  }[];
+  linkTree: LinkTree[];
 }
 
 const LinkGrid = ({ linkTree }: Props) => {
