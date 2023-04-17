@@ -7,7 +7,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       <nav>
         <div id="nav-inner">
           <Link href="/">
-            <h1>D2 Guide</h1>
+            <h1>D2 Compendium</h1>
           </Link>
         </div>
       </nav>

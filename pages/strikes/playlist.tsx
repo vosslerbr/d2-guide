@@ -2,15 +2,13 @@ import Head from "next/head";
 import { NextPageWithLayout } from "../_app";
 import Layout from "@/components/Layout";
 import { ReactElement } from "react";
-import LinkGrid from "@/components/LinkGrid";
-import linkTree from "@/utils/linkTrees/strikesLinkTree";
 import { Chip } from "primereact/chip";
 
 const PlaylistStrikes: NextPageWithLayout = () => {
   return (
     <>
       <Head>
-        <title>D2 Guide | Playlist Strikes</title>
+        <title>D2 Compendium | Playlist Strikes</title>
         <meta name="description" content="D2 Player Guide" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
