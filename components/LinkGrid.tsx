@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Card } from "primereact/card";
 import { LinkTree } from "@/utils/linkTrees/types";
+import Image from "next/image";
 
 interface Props {
   linkTree: LinkTree[];

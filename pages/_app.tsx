@@ -10,6 +10,7 @@ import "primeicons/primeicons.css";
 import PrimeReact from "primereact/api";
 import { ReactElement, ReactNode } from "react";
 import { NextPage } from "next";
+import Store from "@/components/Store";
 
 PrimeReact.ripple = true;
 
@@ -26,5 +27,9 @@ export default function App({ Component, pageProps }: AppPropsWithLayout) {
   // Use the layout defined at the page level, if available
   const getLayout = Component.getLayout ?? ((page) => page);
 
-  return <>{getLayout(<Component {...pageProps} />)}</>;
+  return (
+    <Store>
+      <>{getLayout(<Component {...pageProps} />)}</>
+    </Store>
+  );
 }

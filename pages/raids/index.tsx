@@ -3,6 +3,8 @@ import { NextPageWithLayout } from "../_app";
 import Layout from "@/components/Layout";
 import { ReactElement } from "react";
 import { Chip } from "primereact/chip";
+import LinkGrid from "@/components/LinkGrid";
+import linkTree from "@/utils/linkTrees/raidsLinkTree";
 
 const Raids: NextPageWithLayout = () => {
   return (
@@ -21,7 +23,7 @@ const Raids: NextPageWithLayout = () => {
           <Chip label="Fireteam-Based" />
           <Chip label="6 Players" />
         </div>
-        <p></p>
+        <LinkGrid linkTree={linkTree} />
       </main>
     </>
   );

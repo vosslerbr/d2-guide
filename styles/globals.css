@@ -26,8 +26,27 @@ a {
 .chips {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 2rem;
 }
 
 .chips > * {
   margin-right: 0.5rem;
+}
+
+.section-card-detail {
+  background: var(--surface-card);
+  padding: 2rem;
+  border-radius: 5px;
+  margin-bottom: 4rem;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 0;
+  padding-bottom: 56.25%;
+}
+
+.section-card-detail h1 {
+  margin-top: 0;
+  line-height: 25px;
 }

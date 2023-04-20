@@ -2,7 +2,6 @@ import Head from "next/head";
 import { NextPageWithLayout } from "../_app";
 import Layout from "@/components/Layout";
 import { ReactElement } from "react";
-import { Chip } from "primereact/chip";
 
 const Armor: NextPageWithLayout = () => {
   return (
