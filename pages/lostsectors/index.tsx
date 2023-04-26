@@ -21,7 +21,8 @@ const LostSectors: NextPageWithLayout = () => {
           <Chip label="Chosen Difficulty" />
         </div>
         <p>
-          Rotation <Link href="/lostsectors/rotation">here</Link>
+          You can view the lost sector rotation for the current season{" "}
+          <Link href="/lostsectors/rotation">here</Link>.
         </p>
       </main>
     </>

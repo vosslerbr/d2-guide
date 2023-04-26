@@ -1,5 +1,6 @@
 import "@/styles/globals.css";
 import "@/styles/layouts.css";
+import "@/styles/footer.css";
 import type { AppProps } from "next/app";
 //theme
 import "primereact/resources/themes/viva-dark/theme.css";
